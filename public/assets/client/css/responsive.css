@@ -1,0 +1,341 @@
+@media screen and (max-width: 1200px) and (min-width: 991px){
+	
+	#navbar > ul > li > a{
+		    font-size: 14px;
+	}
+	#navbar>ul>li>a{
+		padding: 25px 15px;
+	}
+    .main_menu{
+            margin-top: 7px;
+    }
+    .logo img{
+         margin-top: 10px;
+    }
+
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+		
+}
+@media screen and (max-width: 1200px) {
+.lang_bar>ul{
+    padding: 0;
+    margin: 0;
+}
+.header_section{
+    width: 99%;
+}
+.map_section_title h1{
+    font-size: 19px;
+}
+.footer_menu .nav > li{
+    margin: 30px 10px;
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 340px){
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media screen and (max-width: 991px) {  
+        .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 20px;
+    }
+    .navbar-nav .open .dropdown-menu > li > a,
+    .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 5px 15px 5px 25px;
+    }
+    .dropdown-menu > li > a {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: normal;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+    }
+    .navbar-header {
+        float: none;
+        width: 100%;
+        position: absolute;
+            top: -28px;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        padding: 0;
+        border-top: 0px solid transparent;
+        box-shadow: none;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+   
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    
+    #ContSlider{
+        top: 60px;
+    }
+    .main_menu {
+    float: left;
+    width: 100%;
+     height:auto; 
+        top: 31px;
+          position: absolute;
+          left: 0;
+          z-index:10;
+}
+.search_form{
+    display: none;
+}
+#navbar>ul>li>a:hover:before,#navbar>ul>li>a:hover:after{
+    content: none;
+}
+#navbar>ul>li>a:hover, #navbar>ul>li>a:focus{
+    background-color: transparent;
+    color: #FDBC35;
+    font-weight: bold;
+}
+#navbar > ul > li > a{
+    font-size: 15px;
+        margin-left: 1px;
+    margin-right: 13px;
+    text-align: center;
+}
+ .main_menu .navbar-toggle{
+    float: right;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+        top: -18px;
+        border-radius: 0;
+        background-color: #f1673a;
+
+ }
+ .drop_menu ul{
+    visibility: visible;
+ }
+ .drop_menu:hover ul{
+    display: block;
+    margin: 0 auto;
+
+ }
+ .drop_menu ul{
+    position: relative;
+    top: 0;
+    display: none;
+ }
+
+ .drop_menu > a >i{
+      display: inline-block;
+}
+ .main_menu .navbar-toggle .icon-bar{
+    background-color: #fff;
+ }
+
+.lang_bar{
+    margin-top: 5px;
+}
+.logo img{
+    margin-top: -16px;
+}
+.lang_bar .dropdown-menu{
+    right: 0;
+}
+#navbar>ul {
+    position: relative;
+    z-index: 10;
+    background: #f1673a;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+#navbar-close{
+    color: #000;
+}
+.slider_title{
+    font-size: 22px;
+}
+.slider_see_more a{
+    margin-top: 14px;
+}
+.product_section:before{
+    width: 100%;
+    border-radius: 0;
+}
+.section_intro a.section_dtl{
+        margin-bottom: 30px;
+}
+.scroll_top{
+        padding-top: 8px;
+    padding-bottom: 7px;
+}
+.map_section_title{
+    height: auto;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+ .main_menu{
+ 	width: 100%;
+ }
+ #navbar ul > li {
+	text-align: center;
+ 	display:block;
+ }
+  #navbar ul > li > a{
+ 	display:block;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ }
+.main_menu .navbar-toggle{
+    right: 27px;
+}
+.header_section:before{
+    height: 65px;
+}
+.page_hdr{
+    margin-top: 1px;
+    padding-top: 0;
+}
+.page_title{
+    padding-bottom: 0px;
+}
+.header_section{
+    top: 0;
+}
+.header_contact:last-child{
+    margin-left: 0;
+}
+.social_icons{
+    margin-right: 25px;
+        margin-top: 4px;
+        font-size: 18px;
+        color: #fff;
+}
+.social_icons>ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.social_icons .dropdown-menu{
+    box-shadow: none;
+    border:0px;
+    right: 0;
+       left: -16px;
+       min-width: 60px;
+       background-color: #f1673a;
+}
+.hdr_social_icon,.lang_bar{
+    display: none;
+}
+.social_icons>ul .dropdown-menu > li > a{
+    color: #fff;
+}
+.res_lang_bar{
+    display: block;
+    float: right;
+        position: relative;
+    top: -24px;
+    right: 60px;
+}
+.res_lang_bar .dropdown-menu{
+    min-width: 20px;
+}
+.res_lang_bar .dropdown>a{
+    color: #fff
+}
+.main_menu {
+
+   top: -27px;
+    }
+    .logo img{
+        height: 47px;
+    }
+    .logo img {
+    margin-top:22px;
+}
+.product_section:before{
+    height: 42%;
+}
+.all_products{
+    margin-top: 11px;
+      float: left;
+}
+  #products.owl-carousel .owl-nav .owl-next{
+            right: -30px;
+     }
+     #products.owl-carousel .owl-nav .owl-prev{
+      left:0px;
+     }
+     .map_section_button{
+        float: left;
+     }
+     .map_section_button a{
+        padding: 17px 47px;
+}
+}
+@media screen and (max-width: 470px){
+    .header_contact span{
+        width: auto;
+        font-size: 13px;
+    }
+.res_lang_bar{
+        right: 24px;
+}
+.logo img{
+    margin-top: -9px;
+}
+
+}
+
+@media screen and (max-width: 410px){
+   .slider_text{
+    display: none;
+}
+.slider_content{
+    top: 45%;
+}
+}
+@media screen and (max-width: 375px){
+
+}
+
+@media screen and (max-width: 325px) {
+
+}

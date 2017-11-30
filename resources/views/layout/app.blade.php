@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>ავტორიზაცია</title>
+    <link href="{{asset('public/assets/admin/favicon.ico')}}" rel="shortcut icon" type="image/x-icon" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{asset('public/css/fonts.css')}}">
+    <!-- Scripts -->
+    <script>
+        window.Laravel = {!! json_encode([
+            'csrfToken' => csrf_token(),
+        ]) !!};
+    </script>
+    <!-- css -->
+<style type="text/css">
+body {
+background: #085da8;
+background: -webkit-linear-gradient(right, #085da8, #024580);
+background: -moz-linear-gradient(right, #085da8, #024580);
+background: -o-linear-gradient(right, #085da8, #024580);
+background: linear-gradient(to left, #085da8, #024580);
+font-family: 'BPGArial', sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.form-head {
+font-family: 'bpg_mrgvlovani_caps_2010';
+overflow: hidden;
+line-height: 70px;
+text-align: center;
+color: #fff;
+background: #085da8;
+}
+.login-page {
+width: 400px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form {
+position: relative;
+z-index: 1;
+background: #FFFFFF;
+max-width: 100%;
+margin: 0 auto;
+padding: 45px;
+text-align: center;
+}
+
+.form input {
+font-family: 'BPGArial', sans-serif;
+outline: 0;
+background: #f2f2f2;
+width: 100%;
+border: 0;
+margin: 0 0 15px;
+padding: 15px;
+box-sizing: border-box;
+font-size: 14px;
+}
+
+.form button {
+font-family: 'bpg_mrgvlovani_caps_2010';
+text-transform: uppercase;
+outline: 0;
+background: #085da8;
+width: 100%;
+border: 0;
+padding: 15px;
+color: #FFFFFF;
+font-size: 14px;
+transition: all ;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+background: #024682;
+}
+
+.author {
+position: absolute;
+bottom: 20px;
+left: 0;
+width: 100%;
+overflow: hidden;
+color: #fff;
+font-size: 14px;
+text-align: center;
+}
+
+.author a {
+color: #fff;
+text-decoration: none;
+}
+
+.form .register-form {
+display: none;
+}
+
+.container {
+position: relative;
+z-index: 1;
+max-width: 300px;
+margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+content: "";
+display: block;
+clear: both;
+}
+
+.container .info {
+margin: 50px auto;
+text-align: center;
+}
+
+.container .info h1 {
+margin: 0 0 15px;
+padding: 0;
+font-size: 36px;
+font-weight: 300;
+color: #1a1a1a;
+}
+
+.container .info span {
+color: #4d4d4d;
+font-size: 12px;
+}
+
+.container .info span a {
+color: #000000;
+text-decoration: none;
+}
+
+.container .info span .fa {
+color: #EF3B3A;
+}
+</style>
+</head>
+<body>
+ @yield('content')
+</body>
+</html>

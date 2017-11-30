@@ -1,0 +1,6 @@
+.redactor_toolbar li a.re-mymodal {
+	background-image: url(mymodal.png);
+}
+.redactor_toolbar li a.re-mymodal:hover {
+	background-image: url(mymodal-hover.png);
+}

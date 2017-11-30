@@ -1,0 +1,37 @@
+﻿@font-face {
+    font-family: 'BPGSquareBanner2013';
+    src: url('../fonts/BPGSquareBanner2013.eot');
+    src: url('../fonts/BPGSquareBanner2013.eot') format('embedded-opentype'),
+         url('../fonts/BPGSquareBanner2013.woff2') format('woff2'),
+         url('../fonts/BPGSquareBanner2013.woff') format('woff'),
+         url('../fonts/BPGSquareBanner2013.ttf') format('truetype'),
+         url('../fonts/BPGSquareBanner2013.svg#BPGSquareBanner2013') format('svg');
+}
+@font-face {
+    font-family: 'BPGSquareBannerCaps2013';
+    src: url('../fonts/BPGSquareBannerCaps2013.eot');
+    src: url('../fonts/BPGSquareBannerCaps2013.eot') format('embedded-opentype'),
+         url('../fonts/BPGSquareBannerCaps2013.woff2') format('woff2'),
+         url('../fonts/BPGSquareBannerCaps2013.woff') format('woff'),
+         url('../fonts/BPGSquareBannerCaps2013.ttf') format('truetype'),
+         url('../fonts/BPGSquareBannerCaps2013.svg#BPGSquareBannerCaps2013') format('svg');
+}
+@font-face {
+    font-family: 'bpg_mrgvlovani_2009';
+    src: url('../fonts/bpg_mrgvlovani_2009.eot');
+    src: url('../fonts/bpg_mrgvlovani_2009.eot') format('embedded-opentype'),
+         url('../fonts/bpg_mrgvlovani_2009.woff2') format('woff2'),
+         url('../fonts/bpg_mrgvlovani_2009.woff') format('woff'),
+         url('../fonts/bpg_mrgvlovani_2009.ttf') format('truetype'),
+         url('../fonts/bpg_mrgvlovani_2009.svg#bpg_mrgvlovani_2009') format('svg');
+}
+
+@font-face {
+    font-family: 'bpg_mrgvlovani_caps';
+    src: url('../fonts/bpg_mrgvlovani_caps.eot');
+    src: url('../fonts/bpg_mrgvlovani_caps.eot') format('embedded-opentype'),
+         url('../fonts/bpg_mrgvlovani_caps.woff2') format('woff2'),
+         url('../fonts/bpg_mrgvlovani_caps.woff') format('woff'),
+         url('../fonts/bpg_mrgvlovani_caps.ttf') format('truetype'),
+         url('../fonts/bpg_mrgvlovani_caps.svg#bpg_mrgvlovani_caps') format('svg');
+}

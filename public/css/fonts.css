@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'bpg_mrgvlovani_caps_2010';
+    src: url('../fonts/bpg_mrgvlovani_caps_2010.eot');
+    src: url('../fonts/bpg_mrgvlovani_caps_2010.eot') format('embedded-opentype'),
+         url('../fonts/bpg_mrgvlovani_caps_2010.woff2') format('woff2'),
+         url('../fonts/bpg_mrgvlovani_caps_2010.woff') format('woff'),
+         url('../fonts/bpg_mrgvlovani_caps_2010.ttf') format('truetype'),
+         url('../fonts/bpg_mrgvlovani_caps_2010.svg#bpg_mrgvlovani_caps_2010') format('svg');
+}
+
+@font-face {
+	font-family: 'BPGArial';
+	src: url('../fonts/bpgarial2009.eot');
+	src: url('../fonts/bpgarial2009.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/bpgarial2009.woff') format('woff'),
+			 url('../fonts/bpgarial2009.ttf') format('truetype'),
+			 url('../fonts/bpgarial2009.svg#BPGArial') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

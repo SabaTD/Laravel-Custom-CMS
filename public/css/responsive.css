@@ -1,0 +1,607 @@
+@media screen and (max-width: 1200px) {
+	#navbar > ul > li > a{
+		padding-left: 0px;
+		font-size: 13px;
+	}
+	
+#navbar > ul > li {
+    margin-left: 1px;
+}
+.slider_button {
+   
+    bottom: 45px;
+    right: 115px;
+}
+.slider_text p{
+	font-size: 11px;
+}
+.slider_text {
+    width: 360px;
+    bottom: -13px;
+    height: 360px;
+   
+}
+.slider_text >a > h3 {
+    width: 242px;
+    font-size: 13px;
+   
+}
+.see_more_link{
+	font-size: 13px;
+}
+.channel_content{
+	max-width: 100%;
+}
+.section_text{
+	font-size: 12px;
+}
+.footer_menu #navbar > ul > li > a{
+	font-size: 11px;
+}
+.tab_main_box{
+	width: 215px;
+}
+.tab_box{
+	width: 222px;
+}
+.tab_box_title h3{
+	padding-top: 34px;
+}
+.accesories_tab{
+	height: 202px;
+}
+.accesories_tab h5{
+	font-size: 20px;
+     top: 0; 
+    margin-top: 69px;
+}
+.about_us_text h3:before,.about_us_text h3:after{
+	content: none;
+}
+.about_text{
+	margin-bottom:35px;
+	text-align: justify;
+}
+.text{
+	text-align: justify;
+}
+.filter{
+	position: static;
+}
+  .sliderValue{
+  	width: 46%;
+  }
+  .sec_value{
+  	margin-left: 12px;
+  }
+  .bootstrap-select.age_select, .bootstrap-select.age_select_2 {
+    width: 100% !important;
+}
+.bootstrap-select.age_select_2{
+	margin-left: 0!important;
+}
+.big{
+	width: 426px;
+}
+.prius_cars img{
+	max-width: 90% !important;
+}
+.prius_cars.owl-carousel .owl-item .item h5{
+	padding-left: 0;
+}
+.prius_cars .owl-dots:after{
+	content: none;
+}
+.change_color:after{
+	content: none;
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 679px) {
+  .top_hdr_menu {
+    float: right;
+    width: 80%;
+    position: relative;
+        left: 30%;
+}
+.header_icons {
+    float: right;
+    position: relative;
+    left: 107px;
+    /* right: -19px; 
+    /* top: 46px; */
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+}
+
+@media screen and (max-width: 991px) {
+
+#navbar > ul > li{
+	float: left;
+}
+	
+	#navbar > ul > li > a{
+		    font-size: 12px;
+		     height: auto;
+	}
+	#navbar > ul > li{
+		height: auto;
+	}
+	.fb_channel,.youtube_channel{
+		display: none;
+	}
+	.footer_menu{
+		display: none;
+	}
+	/*.car2_item, .car3_item{
+	 	display: none;
+	 }*/
+	 .section_text{
+	 	padding-left:0px;
+	 	margin-left:0px;	
+	 	 }
+	 .about_section_text{
+	 	float: left;
+	 }
+	 .cars_box{
+	 	margin-top: 20px;
+	 }
+	 .about_section_text{
+	 	margin-top: 10px;
+	 }
+	 .about_section_text > .section_text{
+	 	height: 250px;
+	 }
+	 .about_section_text .see_more_link{
+	     margin-top: 30px;
+    font-size: 12px;
+	 }
+	 .car1_item, .car2_item, .car3_item{
+	float: left;
+}
+.car2_item{
+	top: 0;
+	left: 16px;
+}
+.car2_item_box {
+    left: -3px;
+   right: 0;
+}
+.car3_item{
+	top:0;
+ left: 37px;
+}
+	.see_more_news_link {
+    float: right;
+    font-family: Roboto_GEONus;
+    color: #6a6a6a;
+     transform: rotate(0deg); 
+    position: relative;
+    right: 15px;
+    top: 29px;
+}
+.services_in_text{
+	float: left;
+	text-align: justify;
+}
+.services_in_img{
+	width: 100%;
+}
+.services_in_img2{
+	right: 0;
+}
+.services_in_img img{
+	height: 300px;
+}
+.services_in_img2 img{
+	height: 165px;
+}
+.services_in_img{
+	margin-top: 0;
+}
+.accessories_box h3{
+	margin-top: 0;
+	padding-top:10px;
+}
+.acces_box:nth-child(-n+3) {
+ border-top:0;
+}
+.acces_box:first-child{
+   border-top:1px solid #e5e5e5;
+}
+.acces_box{
+border-left:1px solid #e5e5e5;
+}
+.accesories_tab {
+    height: 124px;
+    width: 200px;
+}
+.accesories_tab h5{
+	     top: 0; 
+    	 margin-top: 20px; 
+    	 font-size: 18px;
+
+}
+
+.acc_modal-content:after{
+	content: none;
+}
+.about_img{
+	display: none;
+}
+.about_mission{
+	width: 100%;
+}
+.toyota_logo{
+	display: none;
+}
+.photo_item, .video_item{
+	float: none;
+		margin:0 auto;
+		margin-bottom:20px;
+		max-width: 100%;
+}
+ .photo_title, .video_title{
+       /* color: #f1f1f1; */
+       max-width: 100%;
+    top: 0;
+    left: 0;
+  -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+       text-align: center;
+  }
+  .video_title{
+    float: none;
+        /*margin-right: 0;*/
+    right: 0;
+    left: 0;
+  }
+  .photo_item h3, .video_item h3{
+  	margin-top: 0;
+  	padding-top:100px;
+  }
+  .model_border{
+  	width: 40%;
+  }
+  .plus_in_dtl{
+  	margin-top: 60px;
+  }
+.big{
+	width: 553px;
+}
+
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+	.tab_popap:nth-child(2n+1) .acc_modal .acc_modal-content{
+	left: 293px;
+	    top: -293px;
+}
+.tab_popap:nth-child(2n+2) .acc_modal .acc_modal-content {
+    left: -428px;
+    top: -293px;
+}
+}
+
+@media screen and (max-width: 768px) {
+	#navbar > ul{
+		background-color:#fff; 
+		width: 94%;
+	}
+	#navbar > ul > li{
+	float: none;
+}
+ .navbar-toggle .icon-bar{
+ 	background-color: #fff;
+
+ }
+ .navbar-toggle{
+ 	background-color: #d32e3e;
+ }
+ #navbar ul > li {
+	text-align: center;
+ 	display:block;
+ }
+  #navbar ul > li > a{
+ 	display:block;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ }
+#navbar > ul > li.active > a:after,#navbar > ul > li > a:hover:after{
+	width: 25%;
+}
+
+	.top_hdr_menu ul > li > a:before{
+		content: none;
+	}
+	.top_hdr_menu ul > li{
+		padding-right: 7px;
+	}
+
+.location_button{
+	    top: 14%;
+    left: 40%;
+}
+.category_section .owl-nav .owl-prev,.category_section .owl-nav .owl-next{
+	top: -27px;
+}
+.news_title h1{
+	font-size: 30px;
+}
+.footer_text{
+	padding-top: 59px;
+}
+.footer_logo{
+	margin-top:60px;
+}
+.page_title{
+	    bottom: 58px;
+}
+.page_info{
+	bottom: 64px;
+}
+.past_pages{
+	float: left;
+}
+.past_pages ul{
+	padding:0;
+}
+.past_pages ul li a {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.services_box{
+	margin-bottom: 30px;
+}
+.services_info > a > h3{
+	width: auto;
+	font-size: 15px;
+}
+.services_info{
+	margin-bottom: 20px;
+}
+
+.slider_info{
+ right: -27vh;
+}
+.slider_text {
+    width: 300px;
+    bottom: -85px;
+    height: 300px;
+}
+.slider_text >a > h3 {
+    width: 196px;
+    font-size: 9px;
+    padding: 30px;
+    margin-left: 45px;
+    padding-bottom: 0;
+
+}
+.slider_text p {
+    font-size: 8px;
+}
+.see_more_link {
+    font-size: 10px;
+}
+.see_more_link:before{
+	top: 7px;
+}
+.slider_button {
+    bottom: 48px;
+    right: 165px;
+}
+
+.car1_item img, .car2_item img, .car3_item img {
+    width: 147px;
+    height: 113px;
+}
+.acc_modal-content{
+	   margin: 0;
+    width: 282px;
+        left: 0;
+    top: -299px;
+    z-index: 1400;
+    padding:5px;
+        font-size: 11px;
+}
+.acc_modal-content:after{
+	content: none;
+}
+.tab_main_box{
+	z-index: 20 !important;
+}
+.tab_main_box{
+	margin:10px auto;
+}
+.accesories_tab {
+    margin: 0 auto;
+    height: 124px;
+    width: 185px;
+}
+.tab_popap:nth-child(3n+3) .acc_modal .acc_modal-content{
+	left: 0;
+	 top: -138px;
+}
+.tab_popap:nth-child(4n+4) .acc_modal .acc_modal-content{
+	left: 0;
+}
+
+.mission_text{
+	padding-left: 20px;
+}
+.mission_box2 .mission_img{
+	top: 50px;
+}
+.mission_box2 .mission_text {
+    top: 65px;
+    }
+    .mission_box1 .mission_text{
+    	top:0;
+    }
+    .mission_text p{
+    	font-size: 9px;
+    }
+    .mission_img img{
+    	height: 85px;
+    }
+    .blog_img_box img{
+    	height: 200px;
+    }
+    .blog_date{
+    	left: 0;
+    }
+    .blog_button {
+    bottom: 14px;
+}
+
+.page_title{
+	height: 37px;
+	bottom: 70px;
+}
+
+.page_title h3{
+    font-size: 15px;
+    margin-top: 8px;
+    margin-right: 76px;
+}
+.cars_dtl{
+	height: 385px;
+}
+.car_img, .car_detail{
+	float: none;
+	width: 100%;
+}
+.car_info{
+	width: 100%;
+	margin-left: 0;
+}
+
+.car_detail{
+	width: 100%;
+}
+.car_speed,.car_year{
+	width: 47%;
+}
+.car_price{
+	margin-right:0;
+}
+.big .item img{
+	width: 60%;
+}
+
+.models_in {
+    width: 310px;
+    height: 78px;
+}
+.rightSection{
+	width: auto;
+}
+.models_box{
+	/*display: inline-block;*/
+}
+.models_in_arrow{
+	z-index: 5;
+}
+.car_color_box h3{
+	    margin-top: 31px;
+	    font-size: 45px;
+}
+.prius_cars  .owl-dot{
+	display: inline-block;
+	margin-left:5px;
+	margin-right: 5px;
+	
+}
+.prius_cars .owl-dots{
+	right: 0;
+	    top: 90%;
+	
+}
+.videom .modal-dialog{
+	width: 95%!important;
+}
+}
+@media screen and (max-width: 470px){
+.car3_item,.car_price{
+	display: none;
+}
+.plus_img_gallery{
+	display: none;
+}
+.plus_in_print{
+	display: none;
+}
+.change_color{
+	display: none;
+}
+.SliderMin img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.Productfull_img{
+	height: auto;
+}
+.search_icon{
+	display: none;
+}
+}
+@media screen and (max-width: 375px){
+	.top_hdr_menu ul > li > a{
+		    font-size: 10px;
+	}
+	.top_hdr_menu ul > li > a:before{
+		content: none;
+	}
+	.top_hdr_menu ul > li{
+		padding-right: 7px;
+	}
+	.social_icons {
+    font-size: 19px;
+    height: 15px;
+    /* margin-top: 8px; */
+    float: none;
+    /* border-right: 1px solid #afafaf; */
+}
+.top_hdr_menu ul{
+	padding:0;
+}
+
+.car1_item img, .car2_item img, .car3_item img{
+	width: 139px;
+}
+.past_pages ul{
+	margin:0;
+}
+.past_pages ul li{
+	line-height: 1;
+}
+.dtl{
+	font-size: 11px;
+}
+}
+
+@media screen and (max-width: 325px) {
+	.top_hdr_menu ul > li {
+    padding-right: 3px;
+}
+.lang_arrow{
+	 bottom: -1px;
+}
+.lang_bar ul li.active, .lang_bar ul li a{
+	    padding-right: 0px;
+    padding-left: 6px;
+    font-size: 10px;
+}
+.lang_bar {
+    float: left;
+    width: 156px;
+}
+}
